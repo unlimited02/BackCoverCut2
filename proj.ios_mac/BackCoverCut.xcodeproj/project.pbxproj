@@ -250,6 +250,7 @@
 /* Begin PBXFileReference section */
 		00228A4E19C814460022019D /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
 		00228A4F19C814460022019D /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
+		0047532E19FF224B005098A1 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = ../Classes/Macros.h; sourceTree = "<group>"; };
 		0050736A19E29D1C00437B8B /* Text */ = {isa = PBXFileReference; lastKnownFileType = file; path = Text; sourceTree = "<group>"; };
 		0075366B19FCC031008F9E84 /* blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blade.png; sourceTree = "<group>"; };
 		0075366C19FCC031008F9E84 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
@@ -460,6 +461,7 @@
 				0092138A19D3DDC60015670F /* ResultText.h */,
 				00F9BE4A19E7D95A000990F2 /* SpriteSetScene.cpp */,
 				00F9BE4B19E7D95A000990F2 /* SpriteSetScene.h */,
+				0047532E19FF224B005098A1 /* Macros.h */,
 				00F9B99819EE538A009D1F53 /* sprites */,
 			);
 			name = Classes;

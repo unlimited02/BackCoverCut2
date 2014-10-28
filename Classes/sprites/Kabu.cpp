@@ -1,6 +1,6 @@
-#define WINSIZE Director::getInstance()->getWinSize()
-
 #include "Kabu.h"
+#include "Macros.h"
+
 
 KabuSprite::KabuSprite()
 {

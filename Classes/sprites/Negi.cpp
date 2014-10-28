@@ -1,6 +1,5 @@
-#define WINSIZE Director::getInstance()->getWinSize()
-
 #include "Negi.h"
+#include "Macros.h"
 
 NegiSprite::NegiSprite()
 {

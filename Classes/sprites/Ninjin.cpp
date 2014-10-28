@@ -1,6 +1,5 @@
-#define WINSIZE Director::getInstance()->getWinSize()
-
 #include "Ninjin.h"
+#include "Macros.h"
 
 NinjinSprite::NinjinSprite()
 {

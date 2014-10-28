@@ -1,7 +1,6 @@
 #include "TitleScene.h"
 #include "SpriteSetScene.h"
-
-#define WINSIZE Director::getInstance()->getWinSize()
+#include "Macros.h"
 
 SetSprite::SetSprite()
 {

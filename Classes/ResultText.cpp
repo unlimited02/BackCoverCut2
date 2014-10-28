@@ -2,14 +2,12 @@
 #include "ResultText.h"
 #include "SpriteSetScene.h"
 #include "SaveSQL.h"
+#include "Macros.h"
 
 #define WINSIZE Director::getInstance()->getWinSize()
 
 // コメントランク選択用の境界点
-#define SCOREBORDER_1 score<3000
-#define SCOREBORDER_2 score<6000
-#define SCOREBORDER_3 score<14000
-#define SCOREBORDER_4 score<19000
+
 
 resultText::resultText()
 {

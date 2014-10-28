@@ -1,6 +1,5 @@
-#define WINSIZE Director::getInstance()->getWinSize()
-
 #include "Unagi.h"
+#include "Macros.h"
 
 UnagiSprite::UnagiSprite()
 {

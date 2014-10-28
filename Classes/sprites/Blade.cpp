@@ -1,7 +1,5 @@
-#define DEFAULT_BLADE_POS_X 550
-#define DEFAULT_BLADE_POS_Y 500
-
 #include "Blade.h"
+#include "Macros.h"
 
 BladeSprite::BladeSprite()
 {

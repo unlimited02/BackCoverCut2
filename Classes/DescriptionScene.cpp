@@ -1,7 +1,6 @@
 #include "GameScene.h"
 #include "DescriptionScene.h"
-
-#define WINSIZE Director::getInstance()->getWinSize()
+#include "Macros.h"
 
 Description::Description()
 {

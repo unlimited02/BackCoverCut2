@@ -2,8 +2,7 @@
 #include "GameScene.h"
 #include "SpriteSetScene.h"
 #include "DescriptionScene.h"
-
-#define WINSIZE Director::getInstance()->getWinSize()
+#include "Macros.h"
 
 Title::Title()
 {

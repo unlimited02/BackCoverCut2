@@ -1,6 +1,5 @@
-#define WINSIZE Director::getInstance()->getWinSize()
-
 #include "Book.h"
+#include "Macros.h"
 
 BookSprite::BookSprite()
 {
