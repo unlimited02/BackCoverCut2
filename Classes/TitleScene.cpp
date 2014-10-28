@@ -44,14 +44,14 @@ void Title::setBackGround()
 {
     // 背景画像の配置
     Sprite *bg = Sprite::create("titleBg.png");
-    
+    Size bgSize = bg->getContentSize();
+    float sizeWidth = WINSIZE.width / bgSize.width;
+    float sizeHeight = WINSIZE.height / bgSize.height;
     bg->setPosition(Vec2(WINSIZE.width/2, WINSIZE.height/2));
-    bg->setScale(1.2);
+    bg->setScaleX(sizeWidth);
+    bg->setScaleY(sizeHeight);
     this->addChild(bg, Z_Bg);
-    
-//    Label *titleLabel = Label::createWithSystemFont("kinko's", "Zapfino", 100);
-//    titleLabel->setPosition(Vec2(WINSIZE.width/2, WINSIZE.height/1.6));
-//    this->addChild(titleLabel, Z_Label);
+
     log("背景配置");
 }
 
@@ -85,17 +85,17 @@ void Title::setButton()
     this->addChild(endLabel, Z_Label);
     
     // 画像変更ボタンの配置
-    MenuItem *configItem = MenuItemImage::create("endbtn_result.png", "endbtn_push.png", CC_CALLBACK_0(Title::menuConfig, this));
+    MenuItem *configItem = MenuItemImage::create("reStartbtn_result.png", "reStartbtn_push.png", CC_CALLBACK_0(Title::menuConfig, this));
     configItem->setPosition(Vec2(WINSIZE.width/2, WINSIZE.height/3 - WINSIZE.height/10));
     
     Menu *menu3 = Menu::create(configItem, NULL);
     menu3->setPosition(Vec2::ZERO);
     this->addChild(menu3, Z_Button);
     
-    Label *ConfigLabel = Label::createWithSystemFont("設定", "ArialRoundedMTBold", 30);
-    ConfigLabel->setPosition(configItem->getPosition());
-    ConfigLabel->setScale(1.2);
-    this->addChild(ConfigLabel, Z_Label);
+    Label *configLabel = Label::createWithSystemFont("設定", "ArialRoundedMTBold", 30);
+    configLabel->setPosition(configItem->getPosition());
+    configLabel->setScale(1.2);
+    this->addChild(configLabel, Z_Label);
     log("ボタン配置");
 }
 

@@ -1,6 +1,5 @@
 #include "SaveSQL.h"
-
-#define dbName "Text"
+#include "Macros.h"
 
 USING_NS_CC;
 

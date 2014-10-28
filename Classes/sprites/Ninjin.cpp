@@ -24,8 +24,6 @@ bool NinjinSprite::init()
 
 void NinjinSprite::setSprite()
 {
-    Size visibleSize = WINSIZE;
-    
     this->setPosition(Vec2(WINSIZE.width/2, WINSIZE.height/2));
     
     float setLine = 3.0;

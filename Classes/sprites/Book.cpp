@@ -25,9 +25,6 @@ bool BookSprite::init()
 
 void BookSprite::setSprite()
 {
-    Size visibleSize = WINSIZE;
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
-
     this->setPosition(Vec2(WINSIZE.width/1.4, WINSIZE.height/2));
     
     float setLine = 2.2;

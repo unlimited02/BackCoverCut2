@@ -4,6 +4,9 @@
 // 画面サイズ取得
 #define WINSIZE Director::getInstance()->getWinSize()
 
+// データベース名
+#define dbName "Text"
+
 // 刃の初期位置
 #define DEFAULT_BLADE_POS_X 550
 #define DEFAULT_BLADE_POS_Y 500

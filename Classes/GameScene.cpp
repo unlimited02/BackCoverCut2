@@ -11,8 +11,6 @@
 
 #include <random>
 
-
-
 Game::Game()
 {
 }
@@ -119,7 +117,15 @@ void Game::setSprite()
 void Game::setBackGround()
 {
     Sprite *bg = Sprite::create("gameBg.png");
-    bg->setPosition(Vec2(WINSIZE.width/2,WINSIZE.height/2));
+    Size bgSize = bg->getContentSize();
+
+    float sizeWidth = WINSIZE.width / bgSize.width;
+    float sizeHeight = WINSIZE.height / bgSize.height;
+    
+    bg->setPosition(Vec2(WINSIZE.width/2, WINSIZE.height/2));
+    bg->setScaleX(sizeWidth);
+    bg->setScaleY(sizeHeight);
+    
     this->addChild(bg, Z_Bg);
     log("背景設定");
 }
@@ -130,7 +136,7 @@ void Game::setButton()
     // リスタートボタン
     MenuItem *reStartImage = MenuItemImage::create("reStartbtn_result.png","reStartbtn._push.png",CC_CALLBACK_0(Game::reStart, this));
     
-    reStartImage->setPosition(Vec2(WINSIZE.width/1.3,WINSIZE.height/9));
+    reStartImage->setPosition(Vec2(WINSIZE.width - reStartImage->getContentSize().width/2, WINSIZE.height/9));
     
     Menu *menu1 = Menu::create(reStartImage,NULL);
     menu1->setPosition(Vec2::ZERO);

@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		00228A5019C814460022019D /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00228A4E19C814460022019D /* GameScene.cpp */; };
+		0047533219FF2880005098A1 /* button_push.png in Resources */ = {isa = PBXBuildFile; fileRef = 0047533119FF2880005098A1 /* button_push.png */; };
+		0047533419FF2D40005098A1 /* brade.png in Resources */ = {isa = PBXBuildFile; fileRef = 0047533319FF2D40005098A1 /* brade.png */; };
 		0050736B19E29D1C00437B8B /* Text in Resources */ = {isa = PBXBuildFile; fileRef = 0050736A19E29D1C00437B8B /* Text */; };
-		0075367319FCC031008F9E84 /* blade.png in Resources */ = {isa = PBXBuildFile; fileRef = 0075366B19FCC031008F9E84 /* blade.png */; };
 		0075367419FCC031008F9E84 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0075366C19FCC031008F9E84 /* button.png */; };
 		0075367519FCC031008F9E84 /* gameBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0075366D19FCC031008F9E84 /* gameBg.png */; };
 		0075367619FCC031008F9E84 /* resultBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0075366E19FCC031008F9E84 /* resultBg.png */; };
@@ -20,8 +21,6 @@
 		0075368019FCC305008F9E84 /* Unagi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0075367E19FCC305008F9E84 /* Unagi.cpp */; };
 		008F4E4519DC07750047F62F /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 008F4E4219DC07750047F62F /* sqlite3.c */; };
 		008F810119DD22550095B8BF /* SaveSQL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008F80FF19DD22550095B8BF /* SaveSQL.cpp */; };
-		0091A57919F49B4800A3DC3C /* skipBtn_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0091A57719F49B4800A3DC3C /* skipBtn_default.png */; };
-		0091A57A19F49B4800A3DC3C /* skipBtn_push.png in Resources */ = {isa = PBXBuildFile; fileRef = 0091A57819F49B4800A3DC3C /* skipBtn_push.png */; };
 		0092138B19D3DDC60015670F /* ResultText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0092138919D3DDC60015670F /* ResultText.cpp */; };
 		009234C419C917C700AD8081 /* TitleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 009234C219C917C700AD8081 /* TitleScene.cpp */; };
 		009E5F0019D5492F00383279 /* endbtn_push.png in Resources */ = {isa = PBXBuildFile; fileRef = 009E5EFC19D5492F00383279 /* endbtn_push.png */; };
@@ -32,7 +31,6 @@
 		009E5F0719D549FE00383279 /* reStartbtn._push.png in Resources */ = {isa = PBXBuildFile; fileRef = 009E5F0519D549FE00383279 /* reStartbtn._push.png */; };
 		009E5F0919D553F300383279 /* 本.png in Resources */ = {isa = PBXBuildFile; fileRef = 009E5F0819D553F300383279 /* 本.png */; };
 		00F602CD19E664AF006CD5D6 /* negi.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F602CC19E664AF006CD5D6 /* negi.png */; };
-		00F7E0BD19E5342800CCA9F0 /* sword_f.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F7E0BC19E5342800CCA9F0 /* sword_f.mp3 */; };
 		00F8F24319EFCB8000693DF6 /* DescriptionScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F8F24119EFCB8000693DF6 /* DescriptionScene.cpp */; };
 		00F9B95C19EE309D009D1F53 /* kabu.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F9B95B19EE309D009D1F53 /* kabu.png */; };
 		00F9B96219EE4E17009D1F53 /* ninjin.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F9B96119EE4E17009D1F53 /* ninjin.png */; };
@@ -251,8 +249,9 @@
 		00228A4E19C814460022019D /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
 		00228A4F19C814460022019D /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
 		0047532E19FF224B005098A1 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = ../Classes/Macros.h; sourceTree = "<group>"; };
+		0047533119FF2880005098A1 /* button_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_push.png; sourceTree = "<group>"; };
+		0047533319FF2D40005098A1 /* brade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brade.png; sourceTree = "<group>"; };
 		0050736A19E29D1C00437B8B /* Text */ = {isa = PBXFileReference; lastKnownFileType = file; path = Text; sourceTree = "<group>"; };
-		0075366B19FCC031008F9E84 /* blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blade.png; sourceTree = "<group>"; };
 		0075366C19FCC031008F9E84 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		0075366D19FCC031008F9E84 /* gameBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameBg.png; sourceTree = "<group>"; };
 		0075366E19FCC031008F9E84 /* resultBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resultBg.png; sourceTree = "<group>"; };
@@ -267,8 +266,6 @@
 		008F4E4419DC07750047F62F /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
 		008F80FF19DD22550095B8BF /* SaveSQL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SaveSQL.cpp; sourceTree = "<group>"; };
 		008F810019DD22550095B8BF /* SaveSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveSQL.h; sourceTree = "<group>"; };
-		0091A57719F49B4800A3DC3C /* skipBtn_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skipBtn_default.png; sourceTree = "<group>"; };
-		0091A57819F49B4800A3DC3C /* skipBtn_push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skipBtn_push.png; sourceTree = "<group>"; };
 		0092138919D3DDC60015670F /* ResultText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ResultText.cpp; path = ../Classes/ResultText.cpp; sourceTree = "<group>"; };
 		0092138A19D3DDC60015670F /* ResultText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultText.h; path = ../Classes/ResultText.h; sourceTree = "<group>"; };
 		009234C219C917C700AD8081 /* TitleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleScene.cpp; path = ../Classes/TitleScene.cpp; sourceTree = "<group>"; };
@@ -281,7 +278,6 @@
 		009E5F0519D549FE00383279 /* reStartbtn._push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reStartbtn._push.png; sourceTree = "<group>"; };
 		009E5F0819D553F300383279 /* 本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "本.png"; sourceTree = "<group>"; };
 		00F602CC19E664AF006CD5D6 /* negi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = negi.png; sourceTree = "<group>"; };
-		00F7E0BC19E5342800CCA9F0 /* sword_f.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sword_f.mp3; sourceTree = "<group>"; };
 		00F8F24119EFCB8000693DF6 /* DescriptionScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DescriptionScene.cpp; sourceTree = "<group>"; };
 		00F8F24219EFCB8000693DF6 /* DescriptionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionScene.h; sourceTree = "<group>"; };
 		00F9B95B19EE309D009D1F53 /* kabu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kabu.png; sourceTree = "<group>"; };
@@ -578,7 +574,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0075366B19FCC031008F9E84 /* blade.png */,
+				0047533319FF2D40005098A1 /* brade.png */,
+				0047533119FF2880005098A1 /* button_push.png */,
 				0075366C19FCC031008F9E84 /* button.png */,
 				0075366D19FCC031008F9E84 /* gameBg.png */,
 				0075366E19FCC031008F9E84 /* resultBg.png */,
@@ -586,13 +583,10 @@
 				0075367019FCC031008F9E84 /* titleBg.png */,
 				0075367119FCC031008F9E84 /* unagi.png */,
 				0075367219FCC031008F9E84 /* yajirusi.png */,
-				0091A57719F49B4800A3DC3C /* skipBtn_default.png */,
-				0091A57819F49B4800A3DC3C /* skipBtn_push.png */,
 				00F9B96319EE50A2009D1F53 /* frame.png */,
 				00F9B96119EE4E17009D1F53 /* ninjin.png */,
 				00F9B95B19EE309D009D1F53 /* kabu.png */,
 				00F602CC19E664AF006CD5D6 /* negi.png */,
-				00F7E0BC19E5342800CCA9F0 /* sword_f.mp3 */,
 				0050736A19E29D1C00437B8B /* Text */,
 				009E5F0819D553F300383279 /* 本.png */,
 				009E5F0419D549FE00383279 /* reStartbtn_result.png */,
@@ -774,12 +768,10 @@
 				00F9B96219EE4E17009D1F53 /* ninjin.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
-				0091A57919F49B4800A3DC3C /* skipBtn_default.png in Resources */,
-				0091A57A19F49B4800A3DC3C /* skipBtn_push.png in Resources */,
+				0047533219FF2880005098A1 /* button_push.png in Resources */,
 				0050736B19E29D1C00437B8B /* Text in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				009E5F0319D5492F00383279 /* startbtn_result.png in Resources */,
-				00F7E0BD19E5342800CCA9F0 /* sword_f.mp3 in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				0075367819FCC031008F9E84 /* titleBg.png in Resources */,
 				009E5F0119D5492F00383279 /* endbtn_result.png in Resources */,
@@ -795,9 +787,9 @@
 				009E5F0919D553F300383279 /* 本.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				0075367619FCC031008F9E84 /* resultBg.png in Resources */,
-				0075367319FCC031008F9E84 /* blade.png in Resources */,
 				009E5F0219D5492F00383279 /* startbtn_push.png in Resources */,
 				0075367419FCC031008F9E84 /* button.png in Resources */,
+				0047533419FF2D40005098A1 /* brade.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				009E5F0019D5492F00383279 /* endbtn_push.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,

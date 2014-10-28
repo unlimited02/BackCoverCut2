@@ -22,6 +22,7 @@ bool AppDelegate::applicationDidFinishLaunching()
         director->setOpenGLView(glview);
     }
     
+    
     // 初期表示画像
     UserDefault *userDef = UserDefault::getInstance();
     userDef->setStringForKey("SpriteName", "本");
